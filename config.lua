@@ -3,7 +3,7 @@ Config = {}
 ----------optional section for shop to sell items-------------
 Config.shop = {
     name = "CPU Store",
-    coords = vector3(-562.4217, 227.63012, 74.890914),
+    coords = vector3(-752.51, 264.32, 77.34),
 }
 
 Config.ShopItems = {
@@ -11,30 +11,38 @@ Config.ShopItems = {
     items = {
         [1] = {
             name = "standard_cpu",
-            price = 1,
-            amount = 500,
+            price = 1500,
+            amount = 5,
             info = {},
             type = "item",
             slot = 1,
         },
         [2] = {
             name = "e2_cpu",
-            price = 1,
-            amount = 500,
+            price = 2000,
+            amount = 5,
             info = {},
             type = "item",
             slot = 2,
         },
         [3] = {
             name = "quantum_cpu",
-            price = 1,
-            amount = 500,
+            price = 2500,
+            amount = 5,
             info = {},
             type = "item",
             slot = 3,
-        },
+        }, 
+        [4] = {
+            name = "phone",
+            price = 800,
+            amount = 1,
+            info = {},
+            type = "item",
+            slot = 4,
+        },   
     },
-    slots = 3
+    slots = 4
 }
 ----------------------------end of optional section--------------
 
